@@ -1,0 +1,10 @@
+.body {
+  font-family: $fontPrimary;
+  color: getColor('text-primary');
+  background-color: getColor('background-primary');
+
+  &.modal-open,
+  &.menu-open {
+    overflow: hidden;
+  }
+}
